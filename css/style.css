@@ -5,9 +5,10 @@
 :root {
   --bs-body-bg: #F6F3ED;
   --bs-primary: #EC5829;
-  --bs-light: #f6f3ed; 
+  --bs-light: #F0EAD9; 
+  --bs-light-rgb: 240, 234, 217;
   --bs-primary-rgb: 236, 88, 41;
-  --light-color: #f6f3ed;
+  --light-color: #F0EAD9;
   --body-bg: #f6f3ed;
   --text-color: #333;
   --bs-dark: #661724;
