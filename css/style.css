@@ -4,17 +4,17 @@
 
 :root {
   --bs-body-bg: #F6F3ED;
-  --bs-primary: #2e483a;
+  --bs-primary: #EC5829;
   --bs-light: #f6f3ed; 
-  --bs-primary-rgb: 46, 72, 58;
+  --bs-primary-rgb: 236, 88, 41;
   --light-color: #f6f3ed;
   --body-bg: #f6f3ed;
   --text-color: #333;
+  --bs-dark: #661724;
+  --bs-dark-rgb: 102, 23, 36;
 }
 
-.navbar {
-background-color: var(--bs-primary);
-}
+
 
 .btn-primary{
   background-color: var(--bs-primary);
@@ -41,9 +41,9 @@ h1, h2, h3 {
 }
 
 #hero {
-  height: 800px;
+  height: 500px;
   background-color: #E4E6DB;
-  background-image: url(../images/hero-bg-img.png);
+  background-image: url(../Images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -68,8 +68,4 @@ section:not(#hero):not(#cta){
   padding: 60px 0;
 }
 
-@media(min-width: 993px){
-  section:not(#hero):not(#cta){
-    padding: 100px 0;
-  }
-}
+
