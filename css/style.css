@@ -13,18 +13,22 @@
   --text-color: #333;
   --bs-dark: #661724;
   --bs-dark-rgb: 102, 23, 36;
+  --bs-btn-primary: #EC5829;
+  --bs-btn-primary-rgb: 236, 88, 41;
+  --bs-btn-bg: #EC5829;
+
 }
 
 
 
 .btn-primary{
   background-color: var(--bs-primary);
+  background-color: #EC5829;
 }
 
 ul{
   list-style: none;
 }
-
 
 
 
