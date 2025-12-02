@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
-/* Set custom variables here */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
 
 :root {
   --bs-body-bg: #F6F3ED;
@@ -19,7 +20,14 @@
 
 }
 
-
+.filled{
+  color: yellow;
+  filter: drop-shadow(2px 2px 1px rgb(97, 97, 97));
+}
+.unfilled{
+  color: rgb(97, 97, 97);
+  filter: drop-shadow(2px 2px 1px rgb(97, 97, 97));
+}
 
 .btn-primary{
   background-color: var(--bs-primary);
@@ -28,6 +36,18 @@
 
 ul{
   list-style: none;
+}
+
+.backlight{
+  background-color: #E4E6DB;
+}
+
+.back-dark{
+  background-color: #661724;
+}
+
+.button{
+  background-color: #EC5829;
 }
 
 
