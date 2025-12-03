@@ -29,6 +29,10 @@
   filter: drop-shadow(2px 2px 1px rgb(97, 97, 97));
 }
 
+.navicon{
+  color: #000;
+}
+
 .btn-primary{
   background-color: var(--bs-primary);
   background-color: #EC5829;
